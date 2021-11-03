@@ -9,4 +9,4 @@ elif StudentMark >= 70:
 elif StudentMark >= 60:
     print("Grade C")
 else:
-    print("Have another go")
+    print("Have another go!")
