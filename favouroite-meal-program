@@ -1,0 +1,18 @@
+#FAVOURITE MEAL PROGRAM
+StarterMeal = input("Please enter your preferred starter meal: ")
+StarterMeal = StarterMeal.lower()
+print("You entered", StarterMeal, "as your preferred starter meal")
+
+MainCourse = input("Please enter your preferred main course: ")
+MainCourse = MainCourse.lower()
+print("You entered", MainCourse, "as your preferred main meal")
+
+Dessert = input("Please enter  your prefferred dessert: ")
+Dessert = Dessert.lower()
+print("You entered", Dessert, "as your preferred dessert")
+
+Drink = input("Please enter your preferred drink: ")
+Drink = Drink.lower()
+print("You have entered", Drink, "as your preferred drink")
+print("*************************")
+print("Your favourite meal is ", StarterMeal, MainCourse, Dessert, "with a glass of", Drink,)
