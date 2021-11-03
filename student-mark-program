@@ -1,0 +1,12 @@
+#STUDENT MARK PROGRAM
+StudentMark = int(input("Please student mark: "))
+if StudentMark >= 90:
+    print("Grade A*")
+elif StudentMark >=80:
+    print("Grade A")
+elif StudentMark >= 70:
+    print("Grade B")
+elif StudentMark >= 60:
+    print("Grade C")
+else:
+    print("Have another go")
